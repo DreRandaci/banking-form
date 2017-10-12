@@ -7,29 +7,51 @@
 <body>
 	
 	<fieldset>
-
+		<legend><p>Please Complete All Fields for Loan Application</p></legend>		
+		<div>
 			<label for="firstName">First Name:</label>
+			<br>
 			<input type="text" name="firstName" placeholder="First Name">
+		</div>
 		<br>
+		<div>
 			<label for="middleInitial">Middle Initial:</label>
+			<br>
 			<input type="text" name="middleInitial" placeholder="Middle Initial">
+		</div>
 		<br>
+		<div>
 			<label for="lastName">Last Name:</label>
+			<br>
 			<input type="text" name="lastName" placeholder="Last Name">
+		</div>
 		<br>
+		<div>
 			<label for="address">Home Address:</label>
+			<br>
 			<input type="text" name="address" placeholder="Home Address">
+		</div>
 		<br>
+		<div>
 			<label for="occupation">Occupation:</label>
+			<br>
 			<input type="text" name="occupation" placeholder="Occupation">
+		</div>
 		<br>
+		<div>
 			<label for="employer">Current Employer:</label>
+			<br>
 			<input type="text" name="employer" placeholder="Current Employer">
+		</div>
 		<br>
+		<div>
 			<label for="employerAddress">Employer Address:</label>
+			<br>
 			<input type="text" name="employerAddress" placeholder="Employer Address">
+		</div>	
 		<br>
 			<label>Type of Loan:</label>
+			<br>			
 			<select>
 				<option value="commercial">Commercial</option>
 				<option value="realEstate">Real Estate</option>
@@ -37,41 +59,51 @@
 				<option value="mortgage">Mortgage</option>
 			</select>
 		<br>
+		<div>
 			<label for="loanAmount">Requested Loan Amount:</label>
+			<br>
 			<input type="text" name="loanAmount" placeholder="Loan Amount">
+		</div>
 		<br>
-
-
-
-
-			<label class="loanLengthButtons" for="loanTerm">Length of Loan:</label>
+		<div>
+			<label for="loanTerm">Length of Loan:</label>
+			<br>
 				<input type="radio" name="loanTerm" value="5years">5 Years
 				<input type="radio" name="loanTerm" value="15years">15 Years
 				<input type="radio" name="loanTerm" value="30years">30 Years
+		</div>
 		<br>
-			<label>Select all that Apply:</label>
+		<div>
+			<label>Select all that Apply:</label><br>
 				<input type="checkbox" name="downPayment">I have a down payment
 				<input type="checkbox" name="resident">I am an out-of-state resident
 				<input type="checkbox" name="married">I am married
 				<input type="checkbox" name="co-sign">Loan will be co-signed
+		</div>	
 		<br>
-
-
-
-
-
+		<div>
 			<label for="email">Email Address:</label>
+			<br>
 			<input type="email" name="email" placeholder="Email Address">
+		</div>
 		<br>
+		<div>
 			<label for="phone-number">Telephone Number:</label>
+			<br>
 			<input type="tel" name="phone-number" placeholder="(555)555-5555">
+		</div>
 		<br>
+		<div>
 			<label for="linkedIn">LinkedIn Profile:</label>
+			<br>
 			<input type="url" name="linkedIn" placeholder="LinkedIn URL">
+		</div>
 		<br>
+		<div>
 			<label>Additional Comments:</label>
 		<br>
-			<textarea placeholder="Additional Comments"></textarea>
+			<textarea class="textarea" rows="6" cols="30" placeholder="Additional Comments"></textarea>
+		</div>	
 		<br>
 		<div>
 			<input type="submit" value="Submit">

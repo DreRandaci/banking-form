@@ -1,23 +1,15 @@
 
 
 /*----MAIN STYLES----*/
-
+ 
 fieldset {
-	background-color: ghostwhite;
+	display: flex;
 	padding: 2em;
+	margin: 3%;
 }
-
-label {
-    width: 180px;
-    clear: left;
-    padding: 3px;
+legend {
+	margin: 0 auto;
 }
-
-/*input, 
-label,
-select,
-textarea 
-{
-    float: left;
+p {
+	font-size: 24px;
 }
-*/
